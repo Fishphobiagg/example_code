@@ -55,7 +55,7 @@ public class FrameRequestDto{
 		private int totalRequestCount;
 		private int framesPerRequest;
 }
-```
+
 		
 		@Builder
 		public FrameRequestDto(int count, int frame){
@@ -63,3 +63,4 @@ public class FrameRequestDto{
 				this.framesPerRequest = frame;
 		}
 }
+```
