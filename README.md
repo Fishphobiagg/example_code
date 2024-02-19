@@ -52,15 +52,14 @@ public class frameService{
 
 @Getter
 public class FrameRequestDto{
-	private int totalRequestCount;
-	private int framesPerRequest;
-}
+    private int totalRequestCount;
+    private int framesPerRequest;
 
-	
-	@Builder
-	public FrameRequestDto(int count, int frame){
-			this.totalRequestCount = count;
-			this.framesPerRequest = frame;
-	}
+    @Builder
+    public FrameRequestDto(int count, int frame){
+        this.totalRequestCount = count;
+	this.framesPerRequest = frame;
+
+    }
 }
 ```
