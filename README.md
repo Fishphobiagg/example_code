@@ -1,5 +1,5 @@
 # example_code
-
+```Java
 // 1 프레임당 1000ms가 소요된다고 가정했을 때, 프레임당 처리 시간을 전역 변수로 관리(enum, db, 환경변수 등 관리 형태는 자유)
 
 @Service
@@ -54,6 +54,8 @@ public class frameService{
 public class FrameRequestDto{
 		private int totalRequestCount;
 		private int framesPerRequest;
+}
+```
 		
 		@Builder
 		public FrameRequestDto(int count, int frame){
